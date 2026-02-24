@@ -26,11 +26,11 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-
+/data
 # PyInstaller
 *.manifest
 *.spec
-.DS_Store
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
@@ -128,3 +128,6 @@ dmypy.json
 *.swp
 *.swo
 *~
+
+# macOS
+.DS_Store
